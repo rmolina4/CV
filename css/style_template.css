@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+#contact {
+    margin-left: auto;
+}
+
 /* Nav Styles */
 nav {
     background-color: #7C7A7A;
@@ -15,7 +19,9 @@ nav {
     flex-direction: row;
 }
 
-nav p, nav a {}
+nav p, nav a {
+    margin: 5px;
+}
 
 nav a {
     color: #ffffff;
