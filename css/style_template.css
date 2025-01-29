@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #7C7A7A;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+nav p, nav a {}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #7C7A7A;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash h1 {
+    color: #494949;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.splash img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.splash p {
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Horizontal Rules */
+hr {
+    border-style: dashed;  
+    border-width: 0.7px;
+}
+
+/* Sections */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section Headings */
+section h2 {
+    color: #494949;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* Paragraph Styles */
+section p {
+    font-style: italic;
+}
+
+/* link styles */
+section a {}
+section a:hover {}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 20% 20% 1fr;
+}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    margin-top: 10px;
+    border-radius: 25%;
+    width: 210px;
+    height: 210px;
+}
+
+.card h3 {
+    color: #494949;
+    font-family: "Montserrat";
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    padding: 0;
+}
+
+form input, form textarea {
+    resize: none;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {}
+
+form button:hover {}
